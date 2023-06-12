@@ -1,8 +1,8 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-# auth serializer
-from auth.serializer import RegisterSerializer
+# user_auth serializer
+from user_auth.serializer import RegisterSerializer
 
 
 class RegisterView(APIView):
